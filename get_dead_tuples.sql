@@ -5,3 +5,4 @@ SELECT
 	,n_dead_tup AS DeadTuples
 FROM pg_stat_user_tables
 order by DeadTuples DESC;
+
